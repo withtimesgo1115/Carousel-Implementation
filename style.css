@@ -21,6 +21,7 @@
     width: 9999px;
     position: absolute;
     left: 0px;
+    /*progressive effect: sliding*/
     transition: 1s;
   }
 
