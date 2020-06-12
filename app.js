@@ -3,6 +3,8 @@ This IS A SOLUTION FOR CAROUSEL
 
 In this solution, I only used basic DOM operations and javascript concepts
 So it can be modified based on advanced js methods
+
+This solution has accomplished my goal with sliding banner
 ******************************/
 
 // enclose all functions into a single global function 
