@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imgScroll {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.imgScroll .showContainer{
+    width: 800px;
+    height: 533px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgScroll .showContainer .container {
+    width: 9999px;
+    position: absolute;
+    left: 0px;
+  }
+
+  .imgScroll .showContainer .container img {
+    display: block;
+    float: left;
+    width: 800px;
+  }
+
+  .imgScroll .triangle {
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    font-size: 40px;
+    color: lightgray;
+  }
+
+  .imgScroll .triangle:hover {
+    color: gray;
+  }
+  .imgScroll .triangle.left-triangle {
+    left: -50px;
+  }
+  .imgScroll .triangle.right-triangle {
+    right: -50px;
+  }
+
+  .imgScroll .dots {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+  }
+  .imgScroll .dots .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: lightgray;
+    margin-right: 10px;
+  }
+  .imgScroll .dots .dot.active {
+    background-color: gray;
+  }
+  
+  
